@@ -536,7 +536,7 @@ footer {
         flex-direction: column;
         height: 1000px;
         margin-bottom: 10px;
-        margin-left: 10%;
+     
     }
 
     .blog-col {
@@ -560,7 +560,7 @@ footer {
     }
 
     #photos .col-3 {
-        margin-left: 5px;
+       
         margin-bottom: 20px;
     }
 
@@ -579,7 +579,7 @@ footer {
     }
 
     #resources .col {
-        margin-left: 10%;
+       
         height: 300px;
         width: 300px;
     }
