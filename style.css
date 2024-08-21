@@ -399,9 +399,15 @@ footer {
 
 /* Mobile Responsive Styles */
 @media (min-width: 300px) and (max-width: 500px) {
+    body {
+        width: 300px;
+    }
+
     header {
+        width: 300px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 0, 0, 0.5);
         background-color: rgb(12, 12, 12);
+        height: 150px;
     }
 
     #logo-and-title {
@@ -422,79 +428,30 @@ footer {
     }
 
     nav {
-        /* height: 150px;
-        flex-direction: column;
-        position: relative; */
-
         flex-direction: column;
         align-items: center;
         height: auto;
     }
 
     #nav-list {
-        /* flex-direction: row;
-        
-        width: 100%;
-        flex-wrap: wrap; */
         flex-direction: row;
         justify-content: center;
         width: 100%;
         flex-wrap: wrap;
         margin-top: 10px;
-
-
     }
 
     #nav-list li {
-        /* margin: 0 -15px;
-        padding: 3px 0; */
-
         margin: 0 5px;
-        /* Reduced margin between items */
         padding: 3px 0;
-
 
     }
 
     #nav-list a {
-        /* font-size: 10px;
-        padding: 5px 10px;
-        margin-left: 20px; */
-
         font-size: 10px;
         padding: 5px 4px;
 
-
     }
-
-    /* #nav-list {
-        flex-direction: row;
-        margin-top: -60px;
-       
-    
-        width: 500px;
-        height: 150px;
-        border: 1px solid rgb(182, 35, 35);
-    }
-
-    #nav-list li {
-       
-      
-
-    }
-
-    #nav-list li a {
-
-        font-size: 9px;
-
-    } */
-
-
-
-
-
-
-
 
     #banner-image img {
         height: 400px;
@@ -512,13 +469,20 @@ footer {
         left: 10%;
     }
 
+    /* About Section  */
+    #about p{
+        font-size: 12px;
+    }
+
     #about .row {
         display: flex;
         flex-direction: column;
+        font-size: 12px;
     }
 
     .about-para {
         margin: 15px;
+        
     }
 
     #about .col h4 {
@@ -527,11 +491,12 @@ footer {
 
     /* carousel */
     #carousel img {
-        height: 400px;
+        height: 300px;
 
     }
 
-    /* blog  */
+    /* Blog Posts  */
+
     .blog-row {
         flex-direction: column;
         height: 1000px;
@@ -543,16 +508,21 @@ footer {
         flex-direction: column;
         height: 700px;
         margin-bottom: 30px;
-        width: 300px;
+        width: 250px;
         margin-left: 20px;
        
     }
 
     .blog-col img {
-        width: 300px;
+        width: 250px;
     }
 
+     /* destination  */
+     .destination-text {
+        font-size: 12px;
+    }
 
+    /* photo gallery  */
     #photos .row {
         display: flex;
         flex-direction: column;
@@ -565,11 +535,10 @@ footer {
         margin-bottom: 20px;
     }
 
-    /* destination  */
-    .destination-text {
-        font-size: 15px;
+    #photos .col-3 img{
+        width: 250px;
+        height: 300px;
     }
-
 
     /* travel resources  */
     #resources .row {
@@ -588,10 +557,11 @@ footer {
 
     /* videos youtube  */
     #videos .col-8 iframe {
-        width: 240px;
+        width: 150px;
 
     }
 
+    /* newsletter  */
     #newsletter-container h3,
     #newsletter-container p,
     #newsletter-container form {
@@ -612,41 +582,46 @@ footer {
         top: 250px;
     }
 
-    /* footer  */
-    #footer {
-        height: 200px;
-    }
+/* footer  */
 
-    #footer h5 {
-        left: 30%
-    }
+#footer {
+    height: 200px;
+}
 
-    #footer-icons {
-        left: 20%;
-    }
+#footer h5 {
+   font-size: 15px;
+   left: 75px;
+}
 
-    #footer-list {
-        flex-direction: row;
-        top: 130px;
-        left: 35px;
+#footer-icons {
+   font-size: 5px;
+   left: 25px;
+}
 
-    }
+#footer-list {
+    flex-direction: row;
+    top: 130px;
+    left: -25px;
+    
 
-    #footer-list li {
-        margin-left: 0;
-        padding: 5px;
-    }
+}
 
-    #footer-list li a {
-        font-size: 6px;
-        top: 50px;
-    }
+#footer-list li {
+    margin-left: 0;
+    padding: 5px;
+}
 
-    footer {
+#footer-list li a {
+    font-size: 6px;
+    top: 50px;
+}
 
-        top: 160px;
-        left: 20%;
-    }
+footer {
+
+    top: 160px;
+    left: 20%;
+    font-size: 10px;
+}
 
 
 }
