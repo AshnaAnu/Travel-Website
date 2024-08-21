@@ -551,13 +551,13 @@ footer {
     #resources .col {
        
         height: 300px;
-        width: 350px;
+        width: 400px;
         margin-left: 10px;
     }
 
     /* videos youtube  */
     #videos .col-8 iframe {
-        width: 350px;
+        width: 300px;
 
     }
 
