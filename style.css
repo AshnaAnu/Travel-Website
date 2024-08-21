@@ -508,13 +508,13 @@ footer {
         flex-direction: column;
         height: 700px;
         margin-bottom: 30px;
-        width: 350px;
+        width: 450px;
         margin-left: 20px;
        
     }
 
     .blog-col img {
-        width: 250px;
+        width: 450px;
     }
 
      /* destination  */
@@ -536,7 +536,7 @@ footer {
     }
 
     #photos .col-3 img{
-        width: 350px;
+        width: 450px;
         height: 300px;
     }
 
@@ -557,7 +557,7 @@ footer {
 
     /* videos youtube  */
     #videos .col-8 iframe {
-        width: 150px;
+        width: 350px;
 
     }
 
