@@ -400,11 +400,11 @@ footer {
 /* Mobile Responsive Styles */
 @media (min-width: 300px) and (max-width: 500px) {
     body {
-        width: 300px;
+        width: 500px;
     }
 
     header {
-        width: 300px;
+        width: 500px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(255, 0, 0, 0.5);
         background-color: rgb(12, 12, 12);
         height: 150px;
@@ -458,14 +458,14 @@ footer {
     }
 
     #banner-image h1 {
-        font-size: 40px;
+        font-size: 20px;
 
         margin-top: 80px;
     }
 
     .search-input {
         width: 80%;
-        top: -180px;
+        top: -270px;
         left: 10%;
     }
 
