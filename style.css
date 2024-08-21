@@ -544,6 +544,7 @@ footer {
         height: 700px;
         margin-bottom: 30px;
         width: 300px;
+        margin-left: 20px;
        
     }
 
@@ -582,6 +583,7 @@ footer {
        
         height: 300px;
         width: 300px;
+        margin-left: 10px;
     }
 
     /* videos youtube  */
